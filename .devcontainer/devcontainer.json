@@ -1,8 +1,8 @@
 {
-  "name": "Prometheus+Grafana",
+  "name": "prometheus+Grafana",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "prometheus",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "forwardPorts": [9090, 3000, 9100],
   "shutdownAction": "stopCompose"
 }
